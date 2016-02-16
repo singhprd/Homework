@@ -70,7 +70,7 @@ class Functions_Practice < MiniTest::Test
   def test_volume_of_cube()
       length1 = 10
       volume1 = volume_of_cube(length1)
-    assert_equal(length1^3, volume1)
+    assert_equal(length1 ^ 3, volume1)
   end
 
   #Given the radius of a sphere calculate the volume

@@ -57,7 +57,7 @@ def volume_of_cube(length1)
 end
 
 def volume_of_sphere(var)
-      return (4/3 * 3.14 * var ^ 3)
+      return (4/3 * 3.14 * var ** 3)
 end
 
 def days_until_christmas
